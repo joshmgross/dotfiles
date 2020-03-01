@@ -23,7 +23,7 @@ Plug 'farmergreg/vim-lastplace'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'roman/golden-ratio'
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+"Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 "
 " if has('nvim')
 "   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
