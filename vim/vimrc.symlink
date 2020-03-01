@@ -71,7 +71,8 @@ set sidescrolloff=10  " Leave 10 characters of horizontal buffer when scrolling
 " Colors & Formatting
 "-------------------------------------------------------------------------------
 
-colorscheme solarized
+" colorscheme solarized
+colorscheme dracula
 set background=dark
 
 " Showcase comments in italics
@@ -117,7 +118,8 @@ vnoremap <C-r> "hy:%s/<C-r>h//g<left><left><left>
 if has('nvim')
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
   set termguicolors
-  colorscheme NeoSolarized
+  " colorscheme NeoSolarized
+  colorscheme dracula
   set background=dark
 
   " Fix vim-tmux-navigator <C-h> https://git.io/viGRU

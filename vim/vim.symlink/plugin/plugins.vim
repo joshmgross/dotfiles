@@ -71,6 +71,7 @@ Plug 'tpope/vim-fugitive'
 " Themes
 Plug 'altercation/vim-colors-solarized'
 Plug 'icymind/NeoSolarized'
+Plug 'dracula/vim',{'as': 'dracula'}
 
 " Testing
 Plug 'janko-m/vim-test'
