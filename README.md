@@ -1,5 +1,6 @@
 # dotfiles
 📂 🔨 *A constant work in progress* 🔨 📂
+🦖❌ Currently broken for Codepsaces ❌🦖
 
 ## Installation
 
