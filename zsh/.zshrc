@@ -95,10 +95,15 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="code ~/.zshrc"
+alias ohmyzsh="code ~/.oh-my-zsh"
 
-# Pure prompt https://github.com/sindresorhus/pure#getting-started
+# Pure prompt
+
+# https://github.com/sindresorhus/pure#manually
+fpath+=$HOME/.zsh/pure
+
+# https://github.com/sindresorhus/pure#getting-started
 autoload -U promptinit; promptinit
 
 # change the path color
