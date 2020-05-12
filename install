@@ -144,11 +144,10 @@ install_dotfiles () {
 # install_dotfiles
 
 # find the installers and run them iteratively
-echo "Installers:"
+echo "👟 Running installers 👟"
 for installer in $(find . -name "*install.sh"); do
-  # sh -c "${installer}"
-  echo ${installer}
+  sh -c "${installer}"
 done
 
 echo ''
-echo '  All installed!'
+echo '🏁 All installed! 🏁'
