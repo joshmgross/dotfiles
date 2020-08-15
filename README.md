@@ -14,7 +14,7 @@ cd ~/.dotfiles
 ### Editors
 #### Visual Studio Code
 
-See https://code.visualstudio.com/ for installation.ns.
+See https://code.visualstudio.com/ for installation.
 
 ### Terminals
 
