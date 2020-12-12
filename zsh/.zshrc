@@ -115,6 +115,6 @@ prompt pure
 export GOPATH=$HOME/go
 
 # https://github.com/rbenv/rbenv#installation
-path=("$GOPATH/bin" "$HOME/.rbenv/bin" $path)
+path=("$GOPATH/bin" "$HOME/.rbenv/bin" "$HOME/.rbenv/shims" $path)
 
 export PATH
