@@ -114,5 +114,7 @@ prompt pure
 # https://github.com/golang/go/wiki/SettingGOPATH#zsh
 export GOPATH=$HOME/go
 
-path=("$GOPATH/bin" $path)
+# https://github.com/rbenv/rbenv#installation
+path=("$GOPATH/bin" "$HOME/.rbenv/bin" $path)
+
 export PATH
