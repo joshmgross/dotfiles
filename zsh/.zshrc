@@ -95,15 +95,14 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="code ~/.zshrc"
-alias ohmyzsh="code ~/.oh-my-zsh"
+alias code="code-insiders"
+alias zshconfig="code $HOME/.zshrc"
+alias refrzsh="source $HOME/.zshrc"
 
-# Pure prompt
-
-# https://github.com/sindresorhus/pure#manually
+# Pure prompt https://github.com/sindresorhus/pure#getting-started
+# https://github.com/sindresorhus/pure#manually	
 fpath+=$HOME/.zsh/pure
 
-# https://github.com/sindresorhus/pure#getting-started
 autoload -U promptinit; promptinit
 
 # change the path color
@@ -118,3 +117,5 @@ export GOPATH=$HOME/go
 path=("$GOPATH/bin" "$HOME/.rbenv/bin" "$HOME/.rbenv/shims" $path)
 
 export PATH
+
+eval "$(rbenv init -)"
