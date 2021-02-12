@@ -5,7 +5,7 @@ then
   then
     brew install zsh
   else
-    sudo apt install zsh
+    sudo apt install -y zsh
   fi
 
 else
