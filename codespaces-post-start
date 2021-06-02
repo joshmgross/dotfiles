@@ -4,7 +4,7 @@
 # Set zsh as default shell
 if ! grep -q "root.*/bin/zsh" /etc/passwd
 then
-  chsh -s /bin/zsh root
+  sudo chsh -s /bin/zsh root
 fi
 
 # Default to signing git commits
