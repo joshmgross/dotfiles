@@ -118,4 +118,4 @@ path=("$GOPATH/bin" "$HOME/.rbenv/bin" "$HOME/.rbenv/shims" $path)
 
 export PATH
 
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
