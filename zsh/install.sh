@@ -38,7 +38,3 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 
 cp zsh/.zshrc ~
-
-# Make sure zsh is running
-zsh
-source ~/.zshrc
