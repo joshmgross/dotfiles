@@ -28,5 +28,11 @@ for installer in $(find . -name "*install-tool.sh"); do
   sh -c "${installer}"
 done
 
+if $CODESPACES
+then
+  echo "Running Codespaces post start"
+  sh codespaces-post-start
+fi
+
 echo ''
 echo '🏁 All installed! 🏁'
