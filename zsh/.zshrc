@@ -89,15 +89,12 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
+# Aliases
 alias code="code-insiders"
 alias zshconfig="code $HOME/.zshrc"
 alias refrzsh="source $HOME/.zshrc"
+alias g="git"
+alias bclean="git branch --merged | egrep -v '(^\*|master|main)' | xargs git branch -d"
 
 # Pure prompt https://github.com/sindresorhus/pure#getting-started
 # https://github.com/sindresorhus/pure#manually	
